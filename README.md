@@ -34,8 +34,8 @@ Create a folder named `data` next to the script with this exact structure:
 Launch the secure training node:
 ```bash
 python main_agent.py
-### Code pour la partie "4. Send the result"
 
+```
 ```markdown
 ### 4. Send the result
 The script will generate a file named `poids_ia_lahmer_v1.pth`.
