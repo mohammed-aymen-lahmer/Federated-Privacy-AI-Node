@@ -44,4 +44,4 @@ Why use `ResNet18`? Because it's efficient and doesn't require a supercomputer t
 The code includes robust error-checking to ensure that the folder structure is respected before starting the training.
 
 ---
-*Project developed for the Master 1 Bioinformatics portfolio.*
+
