@@ -22,10 +22,21 @@ It runs locally on the hospital's machine, trains on confidential images, and **
 **1. Install dependencies:**
 ```bash
 pip install -r requirements.txt
-
+```
 ### 2. Prepare your data folder
 Create a folder named `data` next to the script with this exact structure:
 ```text
 /data
     /Normal    <-- Put healthy tissue images here (.jpg, .png)
     /Cancer    <-- Put tumor images here
+```
+### 3. Run the agent
+Launch the secure training node:
+```bash
+python main_agent.py
+### Code pour la partie "4. Send the result"
+
+```markdown
+### 4. Send the result
+The script will generate a file named `poids_ia_lahmer_v1.pth`.
+> ⚠️ **Action Required:** Send ONLY this `.pth` file to the central server. It contains the learned patterns, not the patient images.
