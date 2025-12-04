@@ -22,3 +22,10 @@ It runs locally on the hospital's machine, trains on confidential images, and **
 **1. Install dependencies:**
 ```bash
 pip install -r requirements.txt
+
+### 2. Prepare your data folder
+Create a folder named `data` next to the script with this exact structure:
+```text
+/data
+    /Normal    <-- Put healthy tissue images here (.jpg, .png)
+    /Cancer    <-- Put tumor images here
