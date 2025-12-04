@@ -34,6 +34,7 @@ Create a folder named `data` next to the script with this exact structure:
 Launch the secure training node:
 ```bash
 python main_agent.py
+```
 ### 4. Send the result
 The script will generate a file named `poids_ia_lahmer_v1.pth`.
 > ⚠️ **Action Required:** Send ONLY this `.pth` file to the central server. It contains the learned patterns, not the patient images.
